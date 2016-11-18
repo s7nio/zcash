@@ -1,7 +1,7 @@
 
 ### zcash ####
 .zcash/**/**
-!.zcash/zcash.conf
+!.zcash/.gitkeep
 .zcash-params/**
 
 
