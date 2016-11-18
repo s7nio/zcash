@@ -1,0 +1,8 @@
+addnode=mainnet.z.cash
+rpcuser=YOUR_USERNAME
+rpcpassword=YOUR_RANDOM_PASSORT
+rcpallowip=127.0.0.1
+
+gen=1
+genproclimit=$(nproc)
+equihashsolver=tromp
