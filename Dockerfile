@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER Sebastian Nemak <info@s7n.io>
 
 ENV GIT_URL git://github.com/zcash/zcash.git
-ENV ZCASH_VERSION v1.0.2
+ENV ZCASH_VERSION v1.0.3
 ENV PATH /root/zcash:/root/zcash/zcutil:/root/zcash/src:$PATH
 
 # update

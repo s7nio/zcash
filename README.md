@@ -1,6 +1,8 @@
-# Dockerfile for zcash
+# zcash
 
-tags: decentralized, open source, cryptocurrency, zero-knowledge
+zcash with docker.
+
+Tags: decentralized, open source, cryptocurrency, zero-knowledge
 
 ## steps
 
@@ -9,7 +11,7 @@ tags: decentralized, open source, cryptocurrency, zero-knowledge
   ```shell
   $ git clone https://github.com/s7nio/zcash zcash
   $ cd zcash
-  $ docker build -t s7nio/zcash:1.0.2 .
+  $ docker build -t s7nio/zcash:1.0.3 .
   ```
 
 2. Setup your zcash configuration
@@ -19,9 +21,9 @@ tags: decentralized, open source, cryptocurrency, zero-knowledge
   ```
 
 3. Run your container
-  
+
   ```shell
-  $ docker run --rm --name zcash -p 8233:8233 -v $(pwd)/.zcash:/root/.zcash:rw -it s7nio/zcash:1.0.2 bash
+  $ docker run --rm --name zcash -p 8233:8233 -v $(pwd)/.zcash:/root/.zcash:rw -it s7nio/zcash:1.0.3 bash
   ```
 
 ## commands
