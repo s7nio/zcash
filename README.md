@@ -52,14 +52,6 @@ $ zcash-cli z_getoperationresult
   - [zcashminers.org](https://zcashminers.org/)
   - pools e.g. [nicehash.com](https://zcash.nicehash.com/)
 
-## todos
-
-- [ ] steps - dockerfile
-- [ ] steps - zcash default configuration
-- [ ] nheqminer
-- [ ] donation ZEC address
-- [ ] docker-compose
-
 ## donations
 
 BTC: 1DGpfQy8TXRgQUe6ZXxYBB3oHgmCdBJPJS
