@@ -31,16 +31,21 @@ Tags: decentralized, open source, cryptocurrency, zero-knowledge
 ```shell
 $ zcashd [-daemon]
 $ zcash-cli stop
-$ zcash-cli getinfo
 
+$ zcash-cli help
+$ zcash-cli getinfo
 $ zcash-cli getnewaddress
 $ zcash-cli z_getnewaddress
 $ zcash-cli z_gettotalbalance
 $ zcash-cli z_listtransactions
 $ zcash-cli z_listreceivedbyaddress "YOUR_ZADDRESS"
-
 $ zcash-cli z_sendmany "YOUR_ZADDRESS" "[{\"amount\": 0.8, \"address\": \"FRIEND_ZADDRESS\"}]"
 $ zcash-cli z_getoperationresult
+
+$ zcash-cli setgenerate true 1
+$ zcash-cli setgenerate true -1
+$ zcash-cli setgenerate false
+$ zcash-cli zcbenchmark solveequihash 10
 ```
 ## links
 
